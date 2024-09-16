@@ -1,16 +1,7 @@
 
-
-
 from random import  randint, uniform
 
-
-
-
-
-
 construction_vehicle_counter = 1
-
-
 
 
 class construction_vehicle():
@@ -21,7 +12,7 @@ class construction_vehicle():
         construction_vehicle_counter+=1
         self.temperature = 0
         self.speed = 0
-        self.vibration= 0
+        self.vibration = 0
 
     def returnConstructionVehicleID(self):
         return self.construction_vehicle_ID

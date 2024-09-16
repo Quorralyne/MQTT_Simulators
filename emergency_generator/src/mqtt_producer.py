@@ -10,8 +10,6 @@ class mqtt_publisher:
         self.clientID = clientID
         self.client = None
 
-    
-
     def connect_client(self):
         MQTT_KEEPALIVE_INTERVAL = 45
         self.client = mqtt.Client(self.clientID)
